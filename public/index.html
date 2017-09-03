@@ -4,13 +4,63 @@
     <meta charset="UTF-8">
     <title>Todo List</title>
     <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
-<body>
-<h1>ToDo list</h1>
 
-<button onclick="getToDosAJAX()">Get todos </button>
+<body bgcolor="#ffffff">
 
-<div id="todos_list_div"></div>
+<div id="heading1">
+<h1 align="center" >ToDo List</h1>
+</div>
+
+<h2 id="heading2">Active Todos</h2>
+
+<div id="todos_list_div" align="left" >
+</div>
+<br>
+
+<hr id="line">
+
+<h4 id ="addtodo">Add Todo</h4>
+
+<div id="add_todo">
+
+
+  <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" id="new_todo_input"   placeholder="Enter the new todo item ">
+        <label class="mdl-textfield__label"></label>
+  </div>
+
+
+<input type="button" onclick="addTodoAJAX()" value="Add ToDo" align="center"
+       class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"/>
+</div>
+
+<hr id="line1">
+
+<div  style="clear: both;">
+<h3 id="heading3">Completed List</h3>
+<p id="hide_completd_list"><u>Hide Completed List Items</u></p>
+
+
+</div>
+
+<div id="completedToDoList"></div>
+
+<br><br>
+
+<hr id="line2">
+
+<div  style="clear: both;">
+<h3 id="heading4">Deleted List</h3>
+<p id="hide_deleted_list"><u>Hide Deleted List Items</u></p>
+</div>
+
+<div id ="deletedToDoList" ></div>
 
 </body>
 </html>

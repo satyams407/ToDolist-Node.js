@@ -1,0 +1,140 @@
+#heading1{
+    background-color:cornflowerblue;
+    height: 70px;
+    width: 80%;
+    margin: 20px auto;
+    alignment: center;
+    text-align: center;
+}
+
+#heading2{
+    font-size: medium;
+    margin-left: 125px;
+    font-weight: bold;
+    width: 80%;
+    color: black;
+}
+
+#heading3{
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    width: auto;
+    margin-left: 125px;
+    float: left;
+}
+
+#heading4{
+    font-size: medium;
+    color: black;
+    width: auto;
+    font-weight: bold;
+    margin-left: 125px;
+    float: left;
+}
+
+.breathVertical {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.breathHorizontal {
+    margin-left:5px;
+    margin-right:5px;
+}
+
+div.todoStatusACTIVE {
+    color : blue;
+}
+
+div.todoStatusCOMPLETE{
+    color : green;
+    text-decoration : line-through;
+}
+
+div.todoStatusDELETED {
+    color : red;
+    text-decoration : line-through;
+}
+
+#todos_list_div {
+    font-size: 18px;
+    align-self: flex-start;
+    alignment: left;
+    margin-left:180px;
+    align-content: flex-start;
+}
+
+#add_todo{
+    align-content: flex-start;
+    margin-left:180px;
+}
+#line1 {
+    width: 80%;
+    height: 2px;
+    background-color:black;
+    color:#FF0066;
+    border: 0 none;
+    margin: 20px auto;
+    border-color: black;
+    alignment: center;
+}
+
+#line2 {
+    width: 80%;
+    height: 2px;
+    background-color:black;
+    color:#FF0066;
+    border: 0 none;
+    margin: 20px auto;
+    border-color: black;
+    alignment: center;
+}
+
+#line {
+    width: 80%;
+    height: 2px;
+    background-color:black;
+    color:#FF0066;
+    border: 0 none;
+    margin: 20px auto;
+    border-color: black;
+    alignment: center;
+}
+
+#addtodo{
+    font-size: 22px;
+    align-self: flex-start;
+    alignment: left;
+    margin-left:145px;
+    color: blue;
+    opacity: 40;
+}
+
+#completedToDoList{
+    align-content: flex-start;
+    font-size: 18px;
+    margin-top: 110px;
+    margin-left:180px;
+}
+
+#deletedToDoList{
+    font-size: 18px;
+    align-content: flex-start;
+    margin-left:180px;
+    margin-top: 110px;
+}
+
+#hide_completd_list {
+    float: right;
+    margin-top: 35px;
+    margin-right: 150px;
+    color: blue;
+}
+
+#hide_deleted_list {
+    float: right;
+    margin-top: 35px;
+    margin-right: 170px;
+    color: blue;
+}
